@@ -10,8 +10,8 @@ const nodemailer = require('nodemailer');
 // app.use('/api', proxy({target: 'http://localhost:5001', changeOrigin: true}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use('/', express.static(`${__dirname}/client/build`));
 // app.use(express.static(__dirname));
+app.use('/', express.static(`${__dirname}/client/build`));
 
 
 app.get('/api/hello', (req, res) => {
