@@ -1,0 +1,28 @@
+{
+  "name": "mlnv",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "/": {
+      "target": "http://localhost:5001",
+      "secure": false
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "install": "^0.12.1",
+    "npm": "^6.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-scrollspy": "^3.3.5",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

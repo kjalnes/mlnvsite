@@ -1,0 +1,74 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 70px;
+    padding: 20px;
+    position: fixed;
+    color: #000;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    border-bottom: 1px groove gray;
+}
+
+.App-header h1 {
+    font-family: 'Helvetica Light', 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-container {
+  margin: 200px 0 0 0;
+}
+
+.main-menu.menu {
+    position: fixed;
+}
+
+
+.custom-title {
+  writing-mode: vertical-rl !important;
+  -webkit-writing-mode: vertical-rl !important;
+  margin-top: 6px;
+  font-size: 2em;
+  font-weight: bold;
+  height: 400px!important;
+}
+
+.ui.container.page-segment {
+    margin-bottom: 70px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.active {
+  /*background-color: yellow !important;*/
+  background-color:  #F3F315 !important;
+}
+
+a {
+    color: fuchsia;
+    /*color: darkorange;*/
+}
