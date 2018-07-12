@@ -25,7 +25,6 @@ class MainMenu extends Component {
                         items={ ['one', 'two', 'three'] }
                         currentClassName="active"
                         onUpdate={ console.log('this', this) }
-
                     >
                         <Menu.Item
                             href='#one'
