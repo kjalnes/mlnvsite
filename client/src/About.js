@@ -1,14 +1,17 @@
 import React from 'react';
-import { Container, Divider, Grid } from 'semantic-ui-react'
+import { Divider, Grid } from 'semantic-ui-react'
 
 const About = () => {
    return (
-        <Container className='page-segment' id='one'>
+        <div className='page-segment' id='one'>
+            <div className='spacer one'>
+                &nbsp;
+            </div>
             <Grid>
-                <Grid.Column width={1}>
+                <Grid.Column width={1}  >
                     <div className='custom-title'>Hello</div>
                 </Grid.Column>
-                <Grid.Column width={15}>
+                <Grid.Column computer={15} tablet={13} mobile={13} >
                         <div className='paragraph-small'>
                             <p>
                                 Welcome to my site! I am a JavaScript developer. I started learning to code back in 2013 and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I'm all about good design, semantic code and and fully functional and data-driven user interfaces. <br />
@@ -55,10 +58,8 @@ const About = () => {
                         </div>
                     </Grid.Column>
             </Grid>
-        </Container>
-    )
-
+        </div>
+    );
 }
 
 export default About;
-

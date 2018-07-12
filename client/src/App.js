@@ -1,39 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Grid, Container, Divider } from 'semantic-ui-react'
 import './App.css';
 import Menu from './Menu';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-import Scrollspy from 'react-scrollspy';
-
-class App extends Component {
-
-  render() {
 
 
-    return (
-      <div>
+const App = () => (
+    <div>
         <header className="App-header">
-          <h1 className="App-title">Make Love Not Var 【ツ】</h1>
+            <h1>Make Love Not Var 【ツ】</h1>
         </header>
         <Container className='main-container'>
-          <Grid className='inner-container'>
-            <Grid.Column width={4}>
-              <Menu />
-            </Grid.Column>
-            <Grid.Column width={11}>
-              <About />
-              <Projects />
-              <Contact />
-              <Divider hidden />
-            </Grid.Column>
-          </Grid>
+            <Grid stackable className='inner-container'>
+                <Grid.Column computer={4} table={1} mobile={1} >
+                    <div className='menu-spacer'>&nbsp;</div>
+                    <Menu />
+                </Grid.Column>
+
+                <Grid.Column width={11} className='test'>
+                    {/*<div className='menu-spacer'>&nbsp;</div>*/}
+                    <div className='mobile-margins'>
+                        <About />
+                        <Projects />
+                        <Contact />
+                        <Divider hidden />
+                    </div>
+                </Grid.Column>
+            </Grid>
         </Container>
-      </div>
-    );
-  }
-}
+    </div>
+);
 
 export default App;
 

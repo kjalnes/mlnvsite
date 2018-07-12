@@ -1,16 +1,17 @@
 import React from 'react'
-import { Container, Divider, Grid } from 'semantic-ui-react'
-
+import { Divider, Grid } from 'semantic-ui-react'
 
 const Projects = () => {
     return (
-        <Container className='page-segment' id='two'>
-            <Divider hidden />
+        <div className='page-segment' id='two'>
+            <div className='spacer two'>
+                &nbsp;
+            </div>
             <Grid>
                 <Grid.Column width={1}>
                     <div className='custom-title'>Recent Projects</div>
                 </Grid.Column>
-                <Grid.Column width={15}>
+                <Grid.Column computer={15} tablet={13} mobile={13} >
                     Currently working on a project, though I am always interested in hearing about projects and opportunities.
                     <Divider horizontal section>
                         Full stack
@@ -113,8 +114,8 @@ const Projects = () => {
                     </Grid>
                 </Grid.Column>
             </Grid>
-        </Container>
-    )
+        </div>
+    );
 }
 
 export default Projects;

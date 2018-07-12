@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-    Container,
     Divider,
     Grid,
     Form,
@@ -32,12 +31,15 @@ class Contact extends Component  {
     render() {
         const { response } = this.state;
         return (
-            <Container className='page-segment' id='three'>
+            <div className='page-segment' id='three'>
+                <div className='spacer'>
+                    &nbsp;
+                </div>
                 <Grid>
                     <Grid.Column width={1}>
                         <div className='custom-title'>Contact</div>
                     </Grid.Column>
-                    <Grid.Column width={15}>
+                    <Grid.Column computer={15} tablet={13} mobile={13} >
                         Feel free to reach out via <a href="mailto:kris.alnes@gmail.com?Subject=Hello%20" target="_top">email</a> or send message through <a href='https://www.linkedin.com/in/kristine-alnes-a1702071/' >LinkedIn</a>.<br />
                         Or send me a message
 
@@ -58,16 +60,16 @@ class Contact extends Component  {
 
                         </Form>
                         <Divider hidden />
-                        <Button basic grey onClick={this.onSubmit.bind(this)}>Send Message</Button>
+                        <Button basic color='grey' onClick={this.onSubmit.bind(this)}>Send Message</Button>
                         <div style={{ fontSize: '1.5em', margin: '30px 0' }}>
                             { response }
                         </div>
                     </Grid.Column>
                 </Grid>
-            </Container>
-        )
-   }
-
+                <div className='spacer'>&nbsp;</div>
+            </div>
+        );
+   };
 }
 
 export default Contact;
