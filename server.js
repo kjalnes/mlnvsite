@@ -5,20 +5,13 @@ const path = require('path');
 const proxy = require('http-proxy-middleware');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const port = process.env.PORT || 5001;
 
-
-// app.use('/api', proxy({target: 'http://localhost:5001', changeOrigin: true}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(express.static(__dirname));
 app.use('/', express.static(`${__dirname}/client/build`));
 
-
-app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Hello From Express!!' });
-});
-
-
+// send email
 app.post('/send', (req, res, next) => {
     const { name, subject, message, email, date } = req.body;
     let mailOpts, smtpTrans;
@@ -33,7 +26,7 @@ app.post('/send', (req, res, next) => {
     });
     mailOpts = {
         from: process.env.MAIL_USER,
-        to: 'kris.alnes@gmail.com',
+        to: process.env.MAIL_RECEIVER,
         subject: 'New message from contact',
         html: `<div>From: ${email}<br> Name: ${name}<br> Subject: ${subject}<br> Message: ${message}<br> Date: ${date}</div>`
     };
@@ -55,11 +48,5 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'client/public', 'index.html'));
 });
 
-
-
-
-const port = process.env.PORT || 5001;
-
 app.listen(port, ()=> console.log(`listening on port ${port}`));
-console.log('getting called')
 module.exports = app;
