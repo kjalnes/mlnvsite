@@ -22,7 +22,7 @@ const Projects = () => {
                                     <h4>We Make Peace</h4>
                                     Full Stack Software Engineer
                                     <div>
-                                        <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Link</a> |  <a href='https://github.com/kjalnes/wmp-portal' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
+                                        <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Link</a> |  <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                         <em>Website and teacher portal that algorithmically connects teachers peer-to-peer </em><br />
                                         - Portal application: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, Leaflet.js <br />
                                         - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP , HTML and CSS
