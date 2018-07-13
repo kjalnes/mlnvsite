@@ -24,7 +24,8 @@ const Projects = () => {
                                     <div>
                                         <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Link</a> |  <a href='https://github.com/kjalnes/wmp-portal' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                         <em>Website and teacher portal that algorithmically connects teachers peer-to-peer </em><br />
-                                        - Portal application: React, Redux, Node.js/Express, Sequelize, PostgreSQL, , Leaflet.js - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP , HTML and CSS
+                                        - Portal application: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, Leaflet.js <br />
+                                        - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP , HTML and CSS
                                     </div>
                                 </div>
                             </Grid.Column>
@@ -35,9 +36,9 @@ const Projects = () => {
                                     <div>
                                         <a href='https://myoosa.com/' target='_blank' rel='noopener noreferrer'>Visit web application</a><br />
                                         <em>Hiring app for dental company Oosa.</em><br />
-                                        - React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, SCSS
-                                        - Deployed to AWS EC2, data storage in S3 and RDS
-                                        - To see codebase send me a message
+                                        - React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, SCSS <br />
+                                        - Deployed to AWS EC2, data storage in S3 and RDS <br />
+                                        - To see codebase, send me a message
                                     </div>
                                 </div>
                             </Grid.Column>
