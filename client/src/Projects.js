@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className='custom-title'>Projects</div>
                 </Grid.Column>
                 <Grid.Column computer={15} tablet={13} mobile={13} >
-                    <Divider horizontal section>
+                    <Divider horizontal section style={{marginTop: '0rem'}}>
                         Full stack
                     </Divider>
                     <Grid divided stackable>
