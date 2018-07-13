@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 
 const App = () => (
-    <div>
+    <div className='background-image'>
         <header className="App-header">
             <h1>Make Let Not Var 【ツ】</h1>
         </header>

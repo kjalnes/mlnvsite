@@ -1,3 +1,10 @@
+.background-image {
+    background-image: url('./grid.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
 .App {
     text-align: center;
 }
@@ -8,8 +15,8 @@
 }
 
 .App-header {
-    background-color: rgba(255, 255, 255, 0.7);
-    height: 70px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 62px;
     padding: 20px;
     position: fixed;
     color: #000;
@@ -24,6 +31,10 @@
     font-weight: 200;
     font-size: 1.5em;
     text-transform: uppercase;
+}
+
+.main-container {
+    background-color: #fff;
 }
 
 .main-menu.menu {
@@ -60,6 +71,10 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
+    .background-image {
+        background-image: none;
+    }
+
     .ui.container {
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -78,7 +93,7 @@ a {
     }
 
     .main-container {
-        padding: 56px 0 0 0;
+        padding: 48px 0 0 0;
     }
 
     .mobile-margins {
