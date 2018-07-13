@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import Scrollspy from 'react-scrollspy';
 
 export default function MainMenu() {
+
     return (
         <Menu
             pointing
@@ -11,7 +12,7 @@ export default function MainMenu() {
             className='full-width main-menu'>
             <div className='full-width'>
                 <Scrollspy
-                    items={ ['one', 'two', 'three'] }
+                    items={ ['about', 'projects', 'contact'] }
                     currentClassName="active">
                     <Menu.Item href='#about' name='【ツ】' />
                     <Menu.Item href='#projects' name='projects' />

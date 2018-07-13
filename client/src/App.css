@@ -26,11 +26,6 @@
     text-transform: uppercase;
 }
 
-
-.main-container {
-    /*margin: 200px 0 0 0;*/
-}
-
 .main-menu.menu {
     position: fixed;
 }
@@ -38,8 +33,6 @@
 .spacer, .menu-spacer {
     height: 300px;
 }
-
-
 
 .custom-title {
     writing-mode: vertical-rl !important;
@@ -103,16 +96,10 @@ a {
         -webkit-padding-start: 0px;
     }
 
-    .spacer {
-        height: 300px;
-    }
-
-}
-
-@media only screen and (max-width: 992px) {
     .menu-spacer {
         height: 0px;
     }
+
     .spacer {
         height: 200px;
     }

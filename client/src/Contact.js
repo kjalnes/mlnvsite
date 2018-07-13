@@ -31,8 +31,9 @@ class Contact extends Component  {
     render() {
         const { response } = this.state;
         return (
-            <div className='page-segment' id='contact'>
-                <div className='spacer' id='three'>
+            <div className='page-segment'>
+
+                <div className='spacer' id='contact'>
                     &nbsp;
                 </div>
                 <Grid>
@@ -67,6 +68,12 @@ class Contact extends Component  {
                     </Grid.Column>
                 </Grid>
                 <div className='spacer'>&nbsp;</div>
+                <div className='spacer'>
+                    &nbsp;
+                </div>
+                <div className='spacer'>
+                    &nbsp;
+                </div>
             </div>
         );
    };
