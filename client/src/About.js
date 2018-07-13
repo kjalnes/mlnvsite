@@ -3,8 +3,8 @@ import { Divider, Grid } from 'semantic-ui-react'
 
 const About = () => {
    return (
-        <div className='page-segment' id='one'>
-            <div className='spacer one'>
+        <div className='page-segment' id='about'>
+            <div className='spacer one' id='one'>
                 &nbsp;
             </div>
             <Grid>
@@ -14,7 +14,7 @@ const About = () => {
                 <Grid.Column computer={15} tablet={13} mobile={13} >
                         <div className='paragraph-small'>
                             <p>
-                                Welcome to my site! I am a JavaScript developer. I started learning to code back in 2013 and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I'm all about good design, semantic code and and fully functional and data-driven user interfaces. <br />
+                                Welcome to my site! I am a JavaScript developer. I started learning to code 5 years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I'm all about good design, semantic code and and fully functional and data-driven user interfaces. <br />
                                 <a
                                     href='https://github.com/kjalnes'
                                     target='_blank'

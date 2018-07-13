@@ -3,8 +3,8 @@ import { Divider, Grid } from 'semantic-ui-react'
 
 const Projects = () => {
     return (
-        <div className='page-segment' id='two'>
-            <div className='spacer two'>
+        <div className='page-segment' id='projects'>
+            <div className='spacer two' id='two'>
                 &nbsp;
             </div>
             <Grid>
