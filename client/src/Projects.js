@@ -64,8 +64,8 @@ const Projects = () => {
                                     <div>
                                         <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Visit web application</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                         <em>Code generator application that builds boilerplate CRUD Node.js app based on UI input</em><br />
-                                        - React, Redux, Node.js/Express, Sequelize, PostgreSQL,  modular routing - GitHub OAuth authentication to allow for direct deployment to user’s GitHub directly
-                                        - Server testing - Travis CI, Supertest, Mocha, Chai
+                                        - React, Redux, Node.js/Express, Sequelize, PostgreSQL,  modular routing - GitHub OAuth authentication to allow for direct deployment to user’s GitHub directly<br />
+                                        - Server testing with Travis CI, Supertest, Mocha, Chai
                                     </div>
                                 </div>
                             </Grid.Column>
