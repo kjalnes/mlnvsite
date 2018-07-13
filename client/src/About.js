@@ -12,7 +12,7 @@ const About = () => {
                     <div className='custom-title'>Hello</div>
                 </Grid.Column>
                 <Grid.Column computer={15} tablet={13} mobile={13} >
-                        <div className='paragraph-small'>
+                        <div>
                             <p>
                                 Hello! I am a JavaScript developer. I began learning  code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I'm all about good design, semantic code and and fully functional and data-driven user interfaces. <br />
                                 <a
@@ -29,7 +29,7 @@ const About = () => {
                             <p>I am currently working on a project, but I am always interested in hearing about oppurtunities.</p>
 
                             <Divider horizontal section>
-                                My stack &#9776;
+                                Stack &#9776;
                             </Divider>
 
                             <Grid divided columns={6} doubling>

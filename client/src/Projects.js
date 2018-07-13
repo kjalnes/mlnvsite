@@ -18,7 +18,7 @@ const Projects = () => {
                     <Grid divided stackable>
                         <Grid.Row columns={3}>
                             <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>We Make Peace</h4>
                                     Full Stack Software Engineer
                                     <div>
@@ -29,7 +29,7 @@ const Projects = () => {
                                 </div>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>Oosa</h4>
                                     Full Stack Software Engineer, UI/UX
                                     <div>
@@ -42,7 +42,7 @@ const Projects = () => {
                                 </div>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>Made By Don</h4>
                                     Full Stack Software Engineer, UI/UX and design
                                     <div>
@@ -57,7 +57,7 @@ const Projects = () => {
                         </Grid.Row>
                         <Grid.Row columns={3}>
                           <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>SofaStack</h4>
                                     Full Stack Software Engineer, UI/UX
                                     <div>
@@ -69,7 +69,7 @@ const Projects = () => {
                                 </div>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>Readable</h4>
                                     Full Stack Software Engineer
                                     <div>
@@ -80,7 +80,7 @@ const Projects = () => {
                                 </div>
                             </Grid.Column>
                             <Grid.Column>
-                                <div className='paragraph-small'>
+                                <div>
                                     <h4>Mobile Flashcards</h4>
                                     Full Stack Software Engineer
                                     <div>
@@ -97,7 +97,7 @@ const Projects = () => {
                         Frontend + UI + design
                     </Divider>
 
-                    <Grid divided>
+                    <Grid divided stackable>
                         <Grid.Row columns={3}>
                             <Grid.Column>
                             <div><h4>Aeternal Lovers Sound Systems</h4><br /> Web Developer, UI/UX, technical and design consulting | <a href='www.aeternal.nyc' target='_blank' rel='noopener noreferrer'>Link</a></div>
