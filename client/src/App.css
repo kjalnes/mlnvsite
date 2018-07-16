@@ -1,10 +1,10 @@
-.background-image {
+/*.background-image {
     background-image: url('./grid.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top left;
 }
-
+*/
 .App {
     text-align: center;
 }
