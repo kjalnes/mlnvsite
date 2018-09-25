@@ -36,7 +36,7 @@ app.post('/send', (req, res, next) => {
             res.status(500).send({ response: 'Something went wrong when sending your message, please try again :)' });
         }
         else {
-            res.send({ response: `Thank you, ${name}! Your message has been sent`});
+            res.send({ response: `Thank you, ${name}! Your message has been sent!`});
         }
     });
 

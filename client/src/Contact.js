@@ -42,7 +42,7 @@ class Contact extends Component  {
                     </Grid.Column>
                     <Grid.Column computer={15} tablet={13} mobile={13} >
                         Feel free to reach out via <a href="mailto:kris.alnes@gmail.com?Subject=Hello%20" target="_top">email</a> or send message through <a href='https://www.linkedin.com/in/kristine-alnes-a1702071/' >LinkedIn</a>.<br />
-                        Or send me a message
+                        Or send me a message right here
 
                         <Divider hidden />
                         <Form>

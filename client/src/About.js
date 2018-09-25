@@ -14,7 +14,7 @@ const About = () => {
                 <Grid.Column computer={15} tablet={13} mobile={13} >
                         <div>
                             <p>
-                                Hello! I am a JavaScript developer. I began learning  code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I'm all about good design, semantic code and and fully functional and data-driven user interfaces. <br />
+                                Hello! I am a JavaScript developer. I began learning code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly, and I have a background in design. I'm all about good, semantic code and fully functional and data-driven user interfaces. <br />
                                 <a
                                     href='https://github.com/kjalnes'
                                     target='_blank'
@@ -27,11 +27,9 @@ const About = () => {
                                 >LinkedIn</a>
                             </p>
                             <p>I am currently working on a project, but I am always interested in hearing about oppurtunities.</p>
-
                             <Divider horizontal section>
                                 Stack &#9776;
                             </Divider>
-
                             <Grid divided columns={6} doubling>
                                 <Grid.Column>JavaScript</Grid.Column>
                                 <Grid.Column>React</Grid.Column>
@@ -51,9 +49,9 @@ const About = () => {
                             <Grid divided columns={6} doubling>
                                 <Grid.Column>HTML5</Grid.Column>
                                 <Grid.Column>CSS3</Grid.Column>
+                                <Grid.Column>Sass</Grid.Column>
                                 <Grid.Column>Mocha</Grid.Column>
                                 <Grid.Column>Chai</Grid.Column>
-                                <Grid.Column>CircleCI</Grid.Column>
                                 <Grid.Column>TravisCI</Grid.Column>
                             </Grid>
                         </div>
