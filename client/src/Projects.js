@@ -25,7 +25,7 @@ const Projects = () => {
                                         <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                         <div><em>Website and teacher program app that algorithmically connects teachers peer-to-peer </em>
                                         </div>
-                                        - App: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer <br />
+                                        - App: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, Amazon EC2 / S3 / RDS <br />
                                         - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS
                                     </div>
                                 </div>
