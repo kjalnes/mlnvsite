@@ -10,7 +10,7 @@ import Contact from './Contact';
 const App = () => (
     <div className='background-image'>
         <header className="App-header">
-            <h1>Make Let Not Var 【ツ】</h1>
+            <h1>Make Let Not Var!! 【ツ】</h1>
         </header>
         <Container className='main-container'>
             <Grid stackable className='inner-container'>
