@@ -24,7 +24,12 @@ const About = () => {
                                     href='https://www.linkedin.com/in/kristine-alnes-a1702071/'
                                     target='_blank'
                                     rel='noopener noreferrer'
-                                >LinkedIn</a>
+                                >LinkedIn</a><span> | </span>
+                                <a
+                                    href='https://angel.co/kristine-alnes'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                >Angel.co</a>
                             </p>
                             <p>I am currently working on a project, but I am always interested in hearing about oppurtunities.</p>
                             <Divider horizontal section>
