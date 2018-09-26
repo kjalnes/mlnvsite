@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
-const proxy = require('http-proxy-middleware');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const port = process.env.PORT || 5001;
@@ -10,6 +9,7 @@ const port = process.env.PORT || 5001;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', express.static(`${__dirname}/client/build`));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // send email
 app.post('/send', (req, res, next) => {

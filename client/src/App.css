@@ -1,3 +1,5 @@
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 /*.background-image {
     background-image: url('./grid.png');
     background-repeat: no-repeat;
@@ -58,7 +60,7 @@
     margin-bottom: 70px;
 }
 
- .active {
+ .active-menu-item {
     background-color:  #F3F315 !important;
 }
 
@@ -68,6 +70,24 @@ a {
 
 .fifteen.wide.computer.thirteen.wide.mobile.thirteen.wide.tablet.column {
     margin: 0 auto;
+}
+
+.ui.inverted.dimmer > .ui.modal {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid lightgrey;
+}
+.ui.modal {
+     border-radius: 0px;
+}
+
+.ui.modal > .actions {
+    border-top: none;
+}
+
+.ui.modal > :first-child:not(.icon), .ui.modal > .icon:first-child + * {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
 }
 
 @media only screen and (max-width: 992px) {
