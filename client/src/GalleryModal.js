@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Modal, Button, Image } from 'semantic-ui-react'
+import { Modal, Button } from 'semantic-ui-react'
 import ImageGallery from 'react-image-gallery';
 
 const modalContent = {
     wmp: {
-        header: 'Peace Letter App',
-        content: 'This is the content',
+        header: 'Educational Program App',
+        content: '',
         galleryFormat: 'landscape',
         items: [
             { original: '../../assets/images/wmp/one.PNG' },
@@ -18,9 +18,27 @@ const modalContent = {
             { original: '../../assets/images/wmp/eight.PNG' }
         ]
     },
+    madebydon: {
+        header: 'E-commerce for Made By Don',
+        content: '',
+        galleryFormat: 'landscape',
+        items: [
+            { original: '../../assets/images/madebydon/mbd_1.PNG' },
+            { original: '../../assets/images/madebydon/mbd_2.PNG' },
+            { original: '../../assets/images/madebydon/mbd_3.PNG' },
+            { original: '../../assets/images/madebydon/mbd_4.PNG' },
+            { original: '../../assets/images/madebydon/mbd_6.PNG' },
+            { original: '../../assets/images/madebydon/mbd_7.PNG' },
+            { original: '../../assets/images/madebydon/mbd_8.PNG' },
+            { original: '../../assets/images/madebydon/mbd_9.PNG' },
+            { original: '../../assets/images/madebydon/mbd_10.PNG' },
+            { original: '../../assets/images/madebydon/mbd_11.PNG' },
+            { original: '../../assets/images/madebydon/mbd_12.PNG' }
+        ]
+    },
     oosa: {
         header: 'Myoosa Hiring App',
-        content: 'Content',
+        content: '',
         galleryFormat: 'portrait',
         items: [
             { original: '../../assets/images/oosa/oosa_1.PNG' },

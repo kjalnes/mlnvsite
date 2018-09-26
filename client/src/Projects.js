@@ -58,7 +58,7 @@ class Projects extends Component {
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('wmp')}>
-                                            See project gallery
+                                            Project gallery
                                         </Button>
 
                                     </div>
@@ -76,7 +76,7 @@ class Projects extends Component {
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('oosa')}>
-                                            See project gallery
+                                            Project gallery
                                         </Button>
                                     </div>
                                 </Grid.Column>
@@ -91,6 +91,10 @@ class Projects extends Component {
                                             - Secure session management w/ JWT, SSL, Stripe integration<br />
                                             - Project was run using agile development
                                         </div>
+                                        <br />
+                                        <Button basic onClick={() => this.toggleGalleryModal('madebydon')}>
+                                            Project gallery
+                                        </Button>
                                     </div>
                                  </Grid.Column>
                             </Grid.Row>
@@ -107,7 +111,7 @@ class Projects extends Component {
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleVideoModal('sofastack')}>
-                                            See Demo Video
+                                            Demo Video
                                         </Button>
                                     </div>
                                 </Grid.Column>

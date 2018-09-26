@@ -90,6 +90,10 @@ a {
     border-top-right-radius: 0px !important;
 }
 
+.image-gallery-image {
+    border: 1px solid lightgray;
+}
+
 @media only screen and (max-width: 992px) {
     .background-image {
         background-image: none;

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import { Modal, Button, Image } from 'semantic-ui-react'
+import { Modal, Button } from 'semantic-ui-react'
 import VideoPlayer from './VideoPlayer';
 
 const modalContent = {
     sofastack: {
         header: 'Sofastack',
-        content: 'CRUD code generator app',
+        content: '',
         videoPath: '../../assets/videos/sofastack-shorter.mov'
     }
 }
