@@ -7,7 +7,7 @@ class Player extends Component {
     return <ReactPlayer
         url={video}
         playing
-        playbackRate='2'
+        playbackRate='3'
         width='100%'
         height='100%'
     />

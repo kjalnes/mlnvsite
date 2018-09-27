@@ -55,9 +55,9 @@ const About = () => {
                                 <Grid.Column>HTML5</Grid.Column>
                                 <Grid.Column>CSS3</Grid.Column>
                                 <Grid.Column>Sass</Grid.Column>
+                                <Grid.Column>Jasmine</Grid.Column>
                                 <Grid.Column>Mocha</Grid.Column>
                                 <Grid.Column>Chai</Grid.Column>
-                                <Grid.Column>TravisCI</Grid.Column>
                             </Grid>
                         </div>
                     </Grid.Column>
