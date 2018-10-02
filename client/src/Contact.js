@@ -36,7 +36,7 @@ class Contact extends Component  {
                 <div className='spacer' id='contact'>
                     &nbsp;
                 </div>
-                <Grid>
+                <Grid id='contact-1' className='XXXXXXXX'>
                     <Grid.Column width={1}>
                         <div className='custom-title'>Contact</div>
                     </Grid.Column>

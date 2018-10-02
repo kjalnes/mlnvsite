@@ -21,7 +21,6 @@ class Projects extends Component {
     render() {
         const { openGalleryModal, openVideoModal, project } = this.state;
 
-        console.log('project', project)
         return (
             <div className='page-segment'>
                 <div className='spacer two' id='projects'>
@@ -35,7 +34,7 @@ class Projects extends Component {
                     toggleVideoModal={this.toggleVideoModal.bind(this)}
                     open={openVideoModal}
                     project={project} />
-                <Grid>
+                <Grid id='projects-1' className='XXXXXXXX'>
                     <Grid.Column width={1}>
                         <div className='custom-title'>Projects</div>
                     </Grid.Column>

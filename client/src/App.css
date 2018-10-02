@@ -60,8 +60,9 @@
     margin-bottom: 70px;
 }
 
- .active-menu-item {
+.active-menu-item {
     background-color:  #F3F315 !important;
+    border-right: 2px solid lightgray !important;
 }
 
 a {
