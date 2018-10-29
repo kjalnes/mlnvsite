@@ -1,12 +1,5 @@
 @import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
-/*.background-image {
-    background-image: url('./grid.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top left;
-}
-*/
 .App {
     text-align: center;
 }
@@ -76,7 +69,7 @@ a {
 .ui.inverted.dimmer > .ui.modal {
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 1px solid lightgrey;
+    /*border: 1px solid lightgrey;*/
 }
 .ui.modal {
      border-radius: 0px;
@@ -93,6 +86,27 @@ a {
 
 .image-gallery-image {
     border: 1px solid lightgray;
+}
+
+
+.ui.large.modal.transition.visible.active {
+    height: 100%;
+}
+
+.mlnv-modal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landscape {
+    text-align: center;
+    color: red;
+}
+
+.portrait {
+    text-align: center;
+    width: 40% !important;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 992px) {
@@ -144,4 +158,49 @@ a {
         height: 200px;
     }
 
+    .ui.large.modal.transition.visible.active {
+        height: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .portrait {
+        text-align: center;
+        width: 43% !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .portrait {
+        text-align: center;
+        width: 55% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .portrait {
+        text-align: center;
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .portrait {
+        text-align: center;
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .portrait {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .portrait {
+        width: 100% !important;
+    }
 }

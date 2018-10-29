@@ -83,30 +83,14 @@ class GalleryModal extends Component {
 
         const { header, content, items, galleryFormat } = modalContent[ project ];
         const { open } = this.state;
-        const inlineStyle = {
-            modal : {
-                marginLeft: 'auto',
-                marginRight: 'auto',
-            },
-            content: {
-                landscape: {
-                    textAlign: 'center'
-                },
-                portrait: {
-                    textAlign: 'center',
-                    width: '40%',
-                    margin: '0 auto'
-                }
-            }
-        };
 
         return (
             <div>
                 <Modal
                     open={open}
                     dimmer='inverted'
-                    style={inlineStyle.modal}
                     size='large'
+                    className='mlnv-modal'
                 >
                     <Modal.Actions style={{margin: '0 auto'}}>
                         <Button basic onClick={toggleGalleryModal}>X</Button>
@@ -114,13 +98,13 @@ class GalleryModal extends Component {
                     <Modal.Header style={{textAlign: 'center'}}>
                     { header }
                     </Modal.Header>
-                    <Modal.Content style={inlineStyle.content[ galleryFormat ]}>
-
+                    <Modal.Content className={galleryFormat}>
                     { content }
                     <ImageGallery
                         items={items}
                         showThumbnails={false}
                         showPlayButton={false}
+                        showFullscreenButton={false}
                     />
                     </Modal.Content>
 
