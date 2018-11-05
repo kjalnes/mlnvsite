@@ -50,7 +50,7 @@ class Projects extends Component {
                                         Full Stack Software Engineer / UI Design
                                         <div>
                                             <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <div><em>Website and teacher program app that algorithmically connects teachers peer-to-peer </em>
+                                            <div><em>CMS site and fullstack app that automates program control flow by connecting teachers peer to peer algorithmically via a user portal.</em>
                                             </div>
                                             - App: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, AWS EC2, AWS S3, AWS RDS <br />
                                             - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS
@@ -119,7 +119,8 @@ class Projects extends Component {
                                         <h4>Readable</h4>
                                         Full Stack Software Engineer
                                         <div>
-                                            <a href='https://github.com/kjalnes/readable' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
+                                            <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> |
+                                            <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                             <em>Reddit clone application for user posting</em><br />
                                             - React, React Router, Redux, Node.js/Express
                                         </div>
