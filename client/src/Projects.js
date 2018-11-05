@@ -119,8 +119,7 @@ class Projects extends Component {
                                         <h4>Readable</h4>
                                         Full Stack Software Engineer
                                         <div>
-                                            <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> |
-                                            <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
+                                            <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                             <em>Reddit clone application for user posting</em><br />
                                             - React, React Router, Redux, Node.js/Express
                                         </div>
