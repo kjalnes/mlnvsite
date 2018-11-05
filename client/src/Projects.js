@@ -84,7 +84,7 @@ class Projects extends Component {
                                         <h4>Made By Don</h4>
                                         Full Stack Software Engineer, UI Design
                                         <div>
-                                            <a href='https://madebydon.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
+                                            <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                             <em>Ecommerce website for 85-year-old friend and neighbor Don, a West Village leather maker and artist</em><br />
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, technical and design consulting <br />
                                             - Secure session management w/ JWT, SSL, Stripe integration<br />
