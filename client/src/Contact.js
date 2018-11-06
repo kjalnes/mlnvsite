@@ -5,7 +5,8 @@ import {
     Form,
     Input,
     TextArea,
-    Button
+    Button,
+    Icon
 } from 'semantic-ui-react'
 import axios from 'axios';
 
@@ -68,12 +69,8 @@ class Contact extends Component  {
                     </Grid.Column>
                 </Grid>
                 <div className='spacer'>&nbsp;</div>
-                <div className='spacer'>
-                    &nbsp;
-                </div>
-                <div className='spacer'>
-                    &nbsp;
-                </div>
+                <h1 className='goto-top'>To the top  <Icon name='hand pointer' /></h1>
+                <div className='spacer'>&nbsp;</div>
             </div>
         );
    };

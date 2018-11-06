@@ -53,7 +53,8 @@ class Projects extends Component {
                                             <div><em>CMS site and fullstack app that automates program control flow by connecting teachers peer to peer algorithmically via a user portal.</em>
                                             </div>
                                             - App: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, AWS EC2, AWS S3, AWS RDS <br />
-                                            - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS
+                                            - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS <br />
+                                            - Both releases built and designed by me
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('wmp')}>
@@ -71,7 +72,8 @@ class Projects extends Component {
                                             <em>Hiring app for dental company Oosa.</em><br />
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, postman, nodemailer, SCSS <br />
                                             - Deployed to AWS EC2, data storage in S3 and RDS <br />
-                                            - To see codebase, send me a message
+                                            - To see codebase, send me a message<br />
+                                            - Initial prototype app was built by me, with two more engieneers joining the team later
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('oosa')}>
@@ -88,7 +90,7 @@ class Projects extends Component {
                                             <em>Ecommerce website for 85-year-old friend and neighbor Don, a West Village leather maker and artist</em><br />
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, technical and design consulting <br />
                                             - Secure session management w/ JWT, SSL, Stripe integration<br />
-                                            - Project was run using agile development
+                                            - Project was built using agile development with a team of three engineers
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('madebydon')}>
@@ -106,7 +108,8 @@ class Projects extends Component {
                                             <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
                                             <em>Code generator application that builds boilerplate CRUD Node.js app based on user input. User can choose to deploy generated app straight to their own Github.</em><br />
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL,  modular routing - GitHub OAuth authentication to allow for direct deployment to user’s GitHub directly<br />
-                                            - Server testing with Travis CI, Supertest, Mocha, Chai
+                                            - Server testing with Travis CI, Supertest, Mocha, Chai<br />
+                                            - Project was built using agile development with a team of three engineers
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleVideoModal('sofastack')}>

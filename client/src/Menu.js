@@ -12,9 +12,10 @@ export default function MainMenu() {
             className='full-width main-menu'>
             <div className='full-width'>
                 <Scrollspy
+                    className='nav'
                     items={ ['about', 'projects', 'contact'] }
                     currentClassName='active-menu-item'>
-                    <Menu.Item href='#about' name='【ツ】' />
+                    <Menu.Item href='#about' name='【ツ】'/>
                     <Menu.Item href='#projects' name='projects' />
                     <Menu.Item href='#contact' name='contact' />
                 </Scrollspy>

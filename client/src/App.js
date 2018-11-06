@@ -1,10 +1,11 @@
 import React from 'react';
-import { Grid, Container, Divider } from 'semantic-ui-react'
+import { Grid, Container, Divider, Button } from 'semantic-ui-react'
 import './App.css';
 import Menu from './Menu';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+
 
 
 const App = () => (
@@ -33,6 +34,27 @@ const App = () => (
 
 export default App;
 
+const $ = window.$;
+
+(function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+    $(document).ready(function () {
+        // $(window).scroll(function () {
+        //     var top =  $(".goto-top");
+        //     if ($('body').height() <= ($(window).height() + $(window).scrollTop() + 200 )) {
+        //         top.animate({"margin-left": "0px"},1500);
+        //     } else {
+        //         top.animate({"margin-left": "-100%"}, 1500);
+        //     }
+        // });
+
+        $(".goto-top").on('click', function () {
+            $("html, body").animate({ scrollTop: 0 }, 400);
+        });
+    });
+})();
 
 
 

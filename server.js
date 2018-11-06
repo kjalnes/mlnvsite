@@ -10,6 +10,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', express.static(`${__dirname}/client/build`));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/vendor', express.static(path.join(__dirname, 'node_modules')));
+
+
 
 // send email
 app.post('/send', (req, res, next) => {

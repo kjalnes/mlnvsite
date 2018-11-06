@@ -109,6 +109,11 @@ a {
     margin: 0 auto;
 }
 
+.goto-top {
+    text-align: center;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 992px) {
     .background-image {
         background-image: none;
