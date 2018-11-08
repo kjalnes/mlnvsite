@@ -26,11 +26,6 @@ const About = () => {
                                     target='_blank'
                                     rel='noopener noreferrer'
                                 >LinkedIn</a><span> | </span>
-                                <a
-                                    href='https://angel.co/kristine-alnes'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >Angel.co</a>
                             </p>
                             <p>I am currently working on a project, but I am always interested in hearing about oppurtunities.</p>
                             <Divider horizontal section>

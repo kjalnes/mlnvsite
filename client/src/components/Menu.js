@@ -3,7 +3,6 @@ import { Menu } from 'semantic-ui-react';
 import Scrollspy from 'react-scrollspy';
 
 export default function MainMenu() {
-
     return (
         <Menu
             pointing

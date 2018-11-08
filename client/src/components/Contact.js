@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import {
     Divider,
     Grid,
@@ -8,7 +9,6 @@ import {
     Button,
     Icon
 } from 'semantic-ui-react'
-import axios from 'axios';
 
 class Contact extends Component  {
     state = {
