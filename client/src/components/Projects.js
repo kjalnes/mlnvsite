@@ -50,10 +50,13 @@ class Projects extends Component {
                                         Full Stack Software Engineer / UI Design
                                         <div>
                                             <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <div><em>CMS site and fullstack app that automates program control flow by connecting teachers peer to peer algorithmically via a user portal.</em>
+                                            <div><em>
+                                                CMS site with custom JS templating and fullstack app that automates program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location
+
+                                            </em>
                                             </div>
-                                            - App: React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, nodemailer, AWS EC2, AWS S3, AWS RDS <br />
-                                            - Website: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS <br />
+                                            - App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RDS<br />
+                                            - Site: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS <br />
                                             - Both releases built and designed by me
                                         </div>
                                         <br />
@@ -69,11 +72,11 @@ class Projects extends Component {
                                         Full Stack Software Engineer, UI Design
                                         <div>
                                             <a href='http://app.myoosa.com/' target='_blank' rel='noopener noreferrer'>App</a><br />
-                                            <em>Hiring app for dental company Oosa.</em><br />
-                                            - React, Redux, Node.js/Express, Sequelize, PostgreSQL, Secure session management w/ JWT, postman, nodemailer, SCSS <br />
+                                            <em>Hiring app that connects prospective dental professionals w/ employers.</em><br />
+                                            - React, Redux, Node.js/Express, PostgreSQL (RDS), Sequelize, Secure session management w/ JWT, Postman, Nodemailer, SCSS <br />
                                             - Deployed to AWS EC2, data storage in S3 and RDS <br />
-                                            - To see codebase, send me a message<br />
-                                            - Initial prototype app was built by me, with two more engieneers joining the team later
+                                            - Initial app was built by me, with additional engieneers joining the team after initial mvp<br />
+                                            - To see codebase, send me a message request
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('oosa')}>
@@ -87,10 +90,10 @@ class Projects extends Component {
                                         Full Stack Software Engineer, UI Design
                                         <div>
                                             <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>Ecommerce website for 85-year-old friend and neighbor Don, a West Village leather maker and artist</em><br />
+                                            <em>E-commerce site for NYC-based leather shop</em><br />
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, technical and design consulting <br />
-                                            - Secure session management w/ JWT, SSL, Stripe integration<br />
-                                            - Project was built using agile development with a team of three engineers
+                                            - Integrated Stripe-based payment system / shopping cart, SSL integration<br />
+                                            - Project was built using agile development
                                         </div>
                                         <br />
                                         <Button basic onClick={() => this.toggleGalleryModal('madebydon')}>
@@ -106,9 +109,8 @@ class Projects extends Component {
                                         Full Stack Software Engineer, UI Design
                                         <div>
                                             <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>Code generator application that builds boilerplate CRUD Node.js app based on user input. User can choose to deploy generated app straight to their own Github.</em><br />
-                                            - React, Redux, Node.js/Express, Sequelize, PostgreSQL,  modular routing - GitHub OAuth authentication to allow for direct deployment to user’s GitHub directly<br />
-                                            - Server testing with Travis CI, Supertest, Mocha, Chai<br />
+                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em><br />
+                                            - React, Redux, Bluebird, Passport, Webpack, PostgreSQL, Sequelize, OAuth, Mocha / Chai, SuperTest<br />
                                             - Project was built using agile development with a team of three engineers
                                         </div>
                                         <br />
@@ -149,14 +151,14 @@ class Projects extends Component {
                         <Grid divided stackable>
                             <Grid.Row columns={3}>
                                 <Grid.Column>
-                                <div><h4>Aeternal Lovers Sound Systems</h4><br /> Web Developer, UI/UX, technical and design consulting | <a href='http://www.aeternal.nyc' target='_blank' rel='noopener noreferrer'>Website</a></div>
+                                    <div><h4>Christopher Jeney </h4>Web Developer, CMS with custom Js theme based on client wireframes <br /><a href='http://www.christopherjeney.com' target='_blank' rel='noopener noreferrer'>Website</a></div>
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <div><h4>Malin Landæus Select Collections </h4><br /> Web Developer, UI/UX, technical and design consulting | <a href='http://www.malinlandaeus.com' target='_blank' rel='noopener noreferrer'>Website</a>
+                                    <div><h4>Malin Landæus Select Collections </h4> Web Developer and deisgner, UI/UX <br /><a href='http://www.malinlandaeus.com' target='_blank' rel='noopener noreferrer'>Website</a>
                                     </div>
                                 </Grid.Column>
                                 <Grid.Column>
-                                    <div><h4>Christopher Jeney </h4><br /> Web Developer | <a href='http://www.christopherjeney.com' target='_blank' rel='noopener noreferrer'>Website</a></div>
+                                    <div><h4>Aeternal Lovers Sound Systems</h4>Web Developer, UI/UX <br /><a href='http://www.aeternal.nyc' target='_blank' rel='noopener noreferrer'>Website</a></div>
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
