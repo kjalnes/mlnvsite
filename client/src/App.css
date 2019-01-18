@@ -44,6 +44,10 @@ img.ui.image.logo {
     position: fixed;
 }
 
+.ui.pointing.secondary.vertical.full-width.main-menu.menu {
+    height: 116px;
+}
+
 .spacer, .menu-spacer {
     height: 300px;
 }
@@ -74,11 +78,16 @@ a {
     margin: 0 auto;
 }
 
+.ui.grid>.column:not(.row) {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
 .ui.inverted.dimmer > .ui.modal {
     -webkit-box-shadow: none;
     box-shadow: none;
-    /*border: 1px solid lightgrey;*/
 }
+
 .ui.modal {
      border-radius: 0px;
 }
@@ -206,10 +215,19 @@ img.ui.circular.image.portrait {
         margin: 0 auto !important;
         background-color: #fff;
         z-index: 1000;
+        height: 100%;
     }
 
     .full-width ul {
         -webkit-padding-start: 0px;
+    }
+
+    a.item {
+        border-bottom: 1px solid lightgray !important;
+    }
+
+    .ui.secondary.vertical.pointing.menu {
+        border-right: none;
     }
 
     .menu-spacer {
@@ -273,6 +291,7 @@ img.ui.circular.image.portrait {
         padding: 10px;
     }
 }
+
 
 @media only screen and (max-width: 660px) {
     .portrait {
