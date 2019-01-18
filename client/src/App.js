@@ -7,11 +7,13 @@ import {
     Image
 } from 'semantic-ui-react'
 import './App.css';
+import Header from './components/Header';
 import Menu from './components/Menu';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import mlnv from './mlnv.png';
+
 const App = () => (
     <div className='background-image'>
         <header className="App-header">

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Divider, Grid } from 'semantic-ui-react'
+import { Divider, Grid, Image } from 'semantic-ui-react'
+import me from '../me.png';
 
 const About = () => {
    return (
@@ -13,21 +14,23 @@ const About = () => {
                 </Grid.Column>
                 <Grid.Column computer={15} tablet={13} mobile={13} >
                         <div>
-                            <p>
-                                Hello! I am a JavaScript developer. I began learning code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I have a background in design and I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
-                                <br />
-                                <a
-                                    href='https://github.com/kjalnes'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >GitHub</a><span> | </span>
-                                <a
-                                    href='https://www.linkedin.com/in/kristine-alnes-a1702071/'
-                                    target='_blank'
-                                    rel='noopener noreferrer'
-                                >LinkedIn</a><span></span>
-                            </p>
-                            <p>I am currently working on a project, but I am always interested in hearing about oppurtunities.</p>
+                            <div className='bio'>
+                                <div className='bio-text'>Hello! I am a JavaScript developer. I began learning code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I have a background in design and I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
+                                    <br /><br />
+                                    <a
+                                        href='https://github.com/kjalnes'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >GitHub</a><span> | </span>
+                                    <a
+                                        href='https://www.linkedin.com/in/kristine-alnes-a1702071/'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >LinkedIn</a><span></span>
+                                    <br /><br />
+                                </div>
+                                <Image className='portrait' circular src={me} />
+                            </div>
                             <Divider horizontal section>
                                 Stack &#9776;
                             </Divider>

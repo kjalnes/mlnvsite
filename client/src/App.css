@@ -122,6 +122,19 @@ a {
     cursor: pointer;
 }
 
+.bio {
+    display: flex;
+}
+
+.bio-text {
+    flex: 3;
+}
+
+img.ui.circular.image.portrait {
+    flex: 1;
+    height: 100%;
+}
+
 @keyframes roateText {
     0% { transform: skewX(45deg) }
     /*30% { transform: skewX(35deg) }*/
@@ -168,6 +181,10 @@ a {
         border-bottom: 2px solid rgba(34, 36, 38, 0.15) !important;
     }
 
+    .ui.menu {
+        margin: 0;
+    }
+
     .main-menu.menu ul a, .App-header {
         background-color: #fff;
     }
@@ -211,12 +228,25 @@ a {
         text-align: center;
         width: 43% !important;
     }
+    .main-container {
+        width: 1127px;
+    }
 }
 
 @media only screen and (max-width: 990px) {
     .portrait {
         text-align: center;
         width: 55% !important;
+    }
+
+    .main-container {
+        padding: 70px 0 0 0;
+        width: inherit !important;
+    }
+
+    .eleven.wide.column.test {
+        width: 90% !important;
+        margin: 0 auto;
     }
 }
 
@@ -228,6 +258,15 @@ a {
 
     .ui.large.modal {
         width: 100%;
+    }
+
+    .bio {
+        display: block;
+    }
+
+    img.ui.circular.image.portrait {
+        width: 60% !important;
+        padding: 10px;
     }
 }
 
@@ -249,3 +288,10 @@ a {
         width: 100% !important;
     }
 }
+
+@media only screen and (max-width: 330px) {
+    .fifteen.wide.computer.thirteen.wide.mobile.thirteen.wide.tablet.column {
+        width: 89.75% !important;
+    }
+}
+

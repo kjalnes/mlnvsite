@@ -8,11 +8,13 @@ export default function MainMenu() {
             pointing
             secondary
             vertical
+            style={{margin: '0'}}
             className='full-width main-menu'>
             <div className='full-width'>
                 <Scrollspy
                     className='nav'
                     items={ ['about', 'projects', 'contact'] }
+                    style={{margin: '0'}}
                     currentClassName='active-menu-item'>
                     <Menu.Item href='#about' name='【ツ】'/>
                     <Menu.Item href='#projects' name='projects' />
