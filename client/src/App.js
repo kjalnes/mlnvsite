@@ -12,14 +12,10 @@ import Menu from './components/Menu';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import mlnv from './mlnv.png';
 
 const App = () => (
     <div className='background-image'>
-        <header className="App-header">
-            <Image className='logo' src={mlnv} />
-            <h1>【ツ】</h1>
-        </header>
+        <Header />
         <Container className='main-container'>
 
             <Grid stackable className='inner-container'>

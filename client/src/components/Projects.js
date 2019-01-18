@@ -42,11 +42,12 @@ class Projects extends Component {
                         <Divider horizontal section style={{marginTop: '0rem'}}>
                             Full stack
                         </Divider>
-                        <Grid divided stackable>
+                        <Grid celled='internally' stackable>
                             <Grid.Row columns={3}>
                                 <Grid.Column>
                                     <div>
-                                        <h4>We Make Peace</h4>
+                                        <h3>We Make Peace</h3>
+                                        <h5>Educational Program App</h5>
                                         Full Stack Software Engineer / UI Design
                                         <div>
                                             <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
@@ -68,7 +69,8 @@ class Projects extends Component {
                                 </Grid.Column>
                                 <Grid.Column>
                                     <div>
-                                        <h4>Oosa</h4>
+                                        <h3>Oosa</h3>
+                                        <h5>Hiring App</h5>
                                         Full Stack Software Engineer, UI Design
                                         <div>
                                             <a href='http://app.myoosa.com/' target='_blank' rel='noopener noreferrer'>App</a><br />
@@ -86,7 +88,27 @@ class Projects extends Component {
                                 </Grid.Column>
                                 <Grid.Column>
                                     <div>
-                                        <h4>Made By Don</h4>
+                                        <h3>SofaStack</h3>
+                                        <h5>Software Developer Tool</h5>
+                                        Full Stack Software Engineer, UI Design
+                                        <div>
+                                            <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
+                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em><br />
+                                            - React, Redux, Bluebird, Passport, Webpack, PostgreSQL, Sequelize, OAuth, Mocha / Chai, SuperTest<br />
+                                            - Project was built using agile development with a team of three engineers
+                                        </div>
+                                        <br />
+                                        <Button basic onClick={() => this.toggleVideoModal('sofastack')}>
+                                            Demo Video
+                                        </Button>
+                                    </div>
+                                </Grid.Column>
+                            </Grid.Row>
+                            <Grid.Row columns={3}>
+                                <Grid.Column>
+                                    <div>
+                                        <h3>Made By Don</h3>
+                                        <h5>E-commerce</h5>
                                         Full Stack Software Engineer, UI Design
                                         <div>
                                             <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
@@ -101,27 +123,10 @@ class Projects extends Component {
                                         </Button>
                                     </div>
                                  </Grid.Column>
-                            </Grid.Row>
-                            <Grid.Row columns={3}>
-                              <Grid.Column>
-                                    <div>
-                                        <h4>SofaStack</h4>
-                                        Full Stack Software Engineer, UI Design
-                                        <div>
-                                            <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em><br />
-                                            - React, Redux, Bluebird, Passport, Webpack, PostgreSQL, Sequelize, OAuth, Mocha / Chai, SuperTest<br />
-                                            - Project was built using agile development with a team of three engineers
-                                        </div>
-                                        <br />
-                                        <Button basic onClick={() => this.toggleVideoModal('sofastack')}>
-                                            Demo Video
-                                        </Button>
-                                    </div>
-                                </Grid.Column>
                                 <Grid.Column>
                                     <div>
-                                        <h4>Readable</h4>
+                                        <h3>Readable</h3>
+                                        <h5>Reddit clone</h5>
                                         Full Stack Software Engineer
                                         <div>
                                             <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
@@ -132,7 +137,8 @@ class Projects extends Component {
                                 </Grid.Column>
                                 <Grid.Column>
                                     <div>
-                                        <h4>Mobile Flashcards</h4>
+                                        <h3>Mobile Flashcards</h3>
+                                        <h5>Study App</h5>
                                         Full Stack Software Engineer
                                         <div>
                                             <a href='https://github.com/kjalnes/mobile-flashcards' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
@@ -144,22 +150,41 @@ class Projects extends Component {
                             </Grid.Row>
                         </Grid>
 
-                        <Divider horizontal section>
+                        <Divider horizontal section style={{margin: '60px 0'}}>
                             Frontend + UI + design
                         </Divider>
 
-                        <Grid divided stackable>
-                            <Grid.Row columns={3}>
-                                <Grid.Column>
-                                    <div><h4>Christopher Jeney </h4>Web Developer, CMS with custom Js theme based on client wireframes <br /><a href='http://www.christopherjeney.com' target='_blank' rel='noopener noreferrer'>Website</a></div>
-                                </Grid.Column>
-                                <Grid.Column>
-                                    <div><h4>Malin Landæus Select Collections </h4> Web Developer and deisgner, UI/UX <br /><a href='http://www.malinlandaeus.com' target='_blank' rel='noopener noreferrer'>Website</a>
+                        <Grid divided='vertically' stackable>
+                                <Grid.Row>
+                                    <div><h4>Christopher Jeney </h4>Web Developer, CMS with custom Js theme based on client wireframes
+                                    <br />
+                                    <a href='http://www.christopherjeney.com' target='_blank' rel='noopener noreferrer'>Website</a></div>
+                                </Grid.Row>
+                                <Grid.Row>
+                                    <div><h4>Malin Landæus Select Collections </h4> Web Developer and deisgner, UI/UX
+                                    <br />
+                                    <a href='http://www.malinlandaeus.com' target='_blank' rel='noopener noreferrer'>Website</a>
                                     </div>
-                                </Grid.Column>
-                                <Grid.Column>
-                                    <div><h4>Aeternal Lovers Sound Systems</h4>Web Developer, UI/UX <br /><a href='http://www.aeternal.nyc' target='_blank' rel='noopener noreferrer'>Website</a></div>
-                                </Grid.Column>
+                                </Grid.Row>
+                                <Grid.Row>
+                                    <div><h4>Aeternal Lovers Sound Systems</h4>Web Developer, UI/UX
+                                    <br />
+                                    <a href='http://www.aeternal.nyc' target='_blank' rel='noopener noreferrer'>Website</a></div>
+                                </Grid.Row>
+                        </Grid>
+
+                        <Divider horizontal section style={{margin: '40px 0'}}>
+                            Studies
+                        </Divider>
+
+                        <Grid divided stackable>
+                            <Grid.Row>
+                                <div>
+                                    <h4>A study in Layout and Positioning</h4><br />
+                                    Illustrated study in CSS layout and positioning
+                                    <br />
+                                    <a href='https://kjalnes.github.io/css-layout/'>Website</a> | <a href='https://github.com/kjalnes/css-layout'>Github</a><br />
+                                </div>
                             </Grid.Row>
                         </Grid>
                     </Grid.Column>

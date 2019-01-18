@@ -130,6 +130,11 @@ a {
     flex: 3;
 }
 
+
+.ui.grid > .row {
+    /*padding: 0 !important;*/
+}
+
 img.ui.circular.image.portrait {
     flex: 1;
     height: 100%;
