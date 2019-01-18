@@ -15,7 +15,12 @@ const modalContent = {
             { original: '../../assets/images/wmp/five.PNG' },
             { original: '../../assets/images/wmp/six.PNG' },
             { original: '../../assets/images/wmp/seven.PNG' },
-            { original: '../../assets/images/wmp/eight.PNG' }
+            { original: '../../assets/images/wmp/eight.PNG' },
+            { original: '../../assets/images/wmp/nine.PNG' },
+            { original: '../../assets/images/wmp/ten.PNG' },
+            { original: '../../assets/images/wmp/eleven.PNG' },
+            { original: '../../assets/images/wmp/twelve.PNG' },
+            { original: '../../assets/images/wmp/thirteen.PNG' }
         ]
     },
     madebydon: {
