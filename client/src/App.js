@@ -3,20 +3,23 @@ import {
     Grid,
     Container,
     Divider,
-    Button
+    Button,
+    Image
 } from 'semantic-ui-react'
 import './App.css';
 import Menu from './components/Menu';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-
+import mlnv from './mlnv.png';
 const App = () => (
     <div className='background-image'>
         <header className="App-header">
-            <h1>Make Let Not Var 【ツ】</h1>
+            <Image className='logo' src={mlnv} />
+            <h1>【ツ】</h1>
         </header>
         <Container className='main-container'>
+
             <Grid stackable className='inner-container'>
                 <Grid.Column computer={4} table={1} mobile={1} >
                     <div className='menu-spacer'>&nbsp;</div>

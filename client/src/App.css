@@ -9,9 +9,14 @@
     height: 80px;
 }
 
+img.ui.image.logo {
+    height: 100%;
+    display: inline;
+}
+
 .App-header {
     background-color: rgba(255, 255, 255, 1);
-    height: 62px;
+    height: 142px;
     padding: 20px;
     position: fixed;
     color: #000;
@@ -24,8 +29,11 @@
 .App-header h1 {
     font-family: 'Helvetica Light', 'Oswald', sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-transform: uppercase;
+    display: inline;
+    position: relative;
+    top: 16px;
 }
 
 .main-container {
@@ -145,6 +153,11 @@ a {
     .ui.container {
         margin-left: 0 !important;
         margin-right: 0 !important;
+    }
+
+    .App-header {
+        height: 72px;
+        padding: 0px;
     }
 
     .main-menu.menu {
