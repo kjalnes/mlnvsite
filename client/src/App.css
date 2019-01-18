@@ -130,9 +130,8 @@ a {
     flex: 3;
 }
 
-
-.ui.grid > .row {
-    /*padding: 0 !important;*/
+.ui.stackable.vertically.divided.grid, .ui.stackable.divided.grid, .fifteen.wide.computer.thirteen.wide.mobile.thirteen.wide.tablet.column {
+    padding: 0 1.5rem;
 }
 
 img.ui.circular.image.portrait {

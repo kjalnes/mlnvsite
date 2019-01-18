@@ -16,7 +16,7 @@ const About = () => {
                         <div>
                             <div className='bio'>
                                 <div className='bio-text'>Hello! I am a JavaScript developer. I began learning code 5+ years ago and since then I have expanded my skills through onsite and online communities including Udacity, Fullstack Academy and General Assembly. I have a background in design and I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
-                                    <br /><br />
+                                    <br />
                                     <a
                                         href='https://github.com/kjalnes'
                                         target='_blank'
