@@ -74,6 +74,11 @@ a {
     color: fuchsia;
 }
 
+a:hover {
+    color: #f0f;
+    text-decoration: underline;
+}
+
 .fifteen.wide.computer.thirteen.wide.mobile.thirteen.wide.tablet.column {
     margin: 0 auto;
 }
