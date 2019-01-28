@@ -1,6 +1,5 @@
 import React from 'react';
 import { Divider, Grid, Image } from 'semantic-ui-react'
-import me from '../me.png';
 
 const About = () => {
    return (
@@ -29,7 +28,7 @@ const About = () => {
                                 >LinkedIn</a><span></span>
                                 <br /><br />
                             </div>
-                            <Image className='portrait' circular src={me} />
+                            <Image className='portrait' circular src='../../assets/images/me.png' />
                         </div>
                         <Divider horizontal section>
                             Stack &#9776;
