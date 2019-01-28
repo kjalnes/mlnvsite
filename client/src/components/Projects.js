@@ -53,7 +53,7 @@ class Projects extends Component {
                                             <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a>
                                         </p>
                                         <p>
-                                            <em>CMS site with custom JS templating and fullstack app that automates letter exchange program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location
+                                            <em>CMS site with custom JS templating and fullstack app that automates letter exchange program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location.
                                             </em>
                                         </p>
                                         <p>- App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RD
@@ -95,7 +95,7 @@ class Projects extends Component {
                                             <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a>
                                         </p>
                                         <p>
-                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em>
+                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions.</em>
                                         </p>
                                         <p>
                                             - React, Redux, Bluebird, Passport, Webpack, PostgreSQL, Sequelize, OAuth, Mocha / Chai, SuperTest<br />
@@ -117,7 +117,7 @@ class Projects extends Component {
                                             <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a>
                                         </p>
                                         <p>
-                                            <em>E-commerce site for NYC-based leather shop</em>
+                                            <em>E-commerce site for NYC-based leather shop.</em>
                                         </p>
                                         <p>
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, technical and design consulting <br />
@@ -138,7 +138,7 @@ class Projects extends Component {
                                             <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a>
                                         </p>
                                         <p>
-                                            <em>Reddit clone application for user posting</em>
+                                            <em>Reddit clone application for user posting.</em>
                                         </p>
                                         <p>
                                             - React, React Router, Redux, Node.js/Express
@@ -151,8 +151,10 @@ class Projects extends Component {
                                         <h5>Study App</h5>
                                         <p>Full Stack Software Engineer</p>
                                         <p>
-                                            <a href='https://github.com/kjalnes/mobile-flashcards' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>iOS Flashcard study app</em>
+                                            <a href='https://github.com/kjalnes/mobile-flashcards' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                                        </p>
+                                        <p>
+                                            <em>Built iOS Flashcard study app to learn and explore React Native.</em>
                                         </p>
                                         <p>
                                             - React, React Native, Redux
