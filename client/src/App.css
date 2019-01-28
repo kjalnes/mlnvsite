@@ -45,7 +45,7 @@ img.ui.image.logo {
 }
 
 .ui.pointing.secondary.vertical.full-width.main-menu.menu {
-    height: 116px;
+    /*height: 118px;*/
 }
 
 .spacer, .menu-spacer {
@@ -177,10 +177,19 @@ img.ui.circular.image.portrait {
 }
 
 
-@media only screen and (max-width: 992px) {
-    .background-image {
-        background-image: none;
+@media only screen and (max-width: 1200px) {
+    .portrait {
+        text-align: center;
+        width: 43% !important;
     }
+
+    .main-container {
+        width: 1127px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
 
     .ui.container {
         margin-left: 0 !important;
@@ -196,8 +205,7 @@ img.ui.circular.image.portrait {
         position: fixed;
         width: 100%;
         margin: 0 auto;
-        height: 130px;
-        border-bottom: 2px solid rgba(34, 36, 38, 0.15) !important;
+        height: 117px;
     }
 
     .ui.menu {
@@ -248,20 +256,6 @@ img.ui.circular.image.portrait {
         height: 100%;
     }
 
-}
-
-
-@media only screen and (max-width: 1200px) {
-    .portrait {
-        text-align: center;
-        width: 43% !important;
-    }
-    .main-container {
-        width: 1127px;
-    }
-}
-
-@media only screen and (max-width: 990px) {
     .portrait {
         text-align: center;
         width: 55% !important;
@@ -276,7 +270,10 @@ img.ui.circular.image.portrait {
         width: 90% !important;
         margin: 0 auto;
     }
+
 }
+
+
 
 @media only screen and (max-width: 767px) {
     .portrait {
@@ -295,6 +292,10 @@ img.ui.circular.image.portrait {
     img.ui.circular.image.portrait {
         width: 60% !important;
         padding: 10px;
+    }
+
+    .main-container {
+        padding: 72px 0 0;
     }
 }
 
