@@ -129,6 +129,7 @@ a:hover {
     text-align: center;
     width: 40% !important;
     margin: 0 auto;
+    margin-left: 1em;
 }
 
 .goto-top {
@@ -267,7 +268,6 @@ img.ui.circular.image.portrait {
     }
 
     .main-container {
-        /*padding: 70px 0 0 0;*/
         padding: 86px 0 0;
         width: inherit !important;
     }
