@@ -48,39 +48,39 @@ class Projects extends Component {
                                     <div>
                                         <h3>We Make Peace</h3>
                                         <h5>Educational Program App</h5>
-                                        Full Stack Software Engineer / UI Design
-                                        <div>
-                                            <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <div><em>
-                                                CMS site with custom JS templating and fullstack app that automates program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location
-
+                                        <p>Full Stack Software Engineer / UI Design</p>
+                                        <p>
+                                            <a href='http://www.app.wemakepeace.org' target='_blank' rel='noopener noreferrer'>App</a> | <a href='http://www.wemakepeace.org' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/wemakepeace/wmpapp' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                                        </p>
+                                        <p>
+                                            <em>CMS site with custom JS templating and fullstack app that automates letter exchange program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location
                                             </em>
-                                            </div>
-                                            - App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RDS<br />
-                                            - Site: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS <br />
-                                            - Both releases built and designed by me
-                                        </div>
-                                        <br />
+                                        </p>
+                                        <p>- App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RD
+                                        </p>
+                                        <p>
+                                            - Site: UI/UX, design and development of CMS - JavaScript, jQuery, PHP, HTML and CSS
+                                        </p>
                                         <Button basic onClick={() => this.toggleGalleryModal('wmp')}>
                                             Project gallery
                                         </Button>
-
                                     </div>
                                 </Grid.Column>
                                 <Grid.Column>
                                     <div>
                                         <h3>Oosa</h3>
                                         <h5>Hiring App</h5>
-                                        Full Stack Software Engineer, UI Design
-                                        <div>
-                                            <a href='http://app.myoosa.com/' target='_blank' rel='noopener noreferrer'>App</a><br />
-                                            <em>Hiring app that connects prospective dental professionals w/ employers.</em><br />
+                                        <p>Full Stack Software Engineer, UI Design</p>
+                                        <p><a href='http://app.myoosa.com/' target='_blank' rel='noopener noreferrer'>App</a></p>
+                                        <p>
+                                            <em>Hiring app that connects prospective dental professionals w/ employers.</em>
+                                        </p>
+                                        <p>
                                             - React, Redux, Node.js/Express, PostgreSQL (RDS), Sequelize, Secure session management w/ JWT, Postman, Nodemailer, SCSS <br />
                                             - Deployed to AWS EC2, data storage in S3 and RDS <br />
                                             - Initial app was built by me, with additional engieneers joining the team after initial mvp<br />
-                                            - To see codebase, send me a message request
-                                        </div>
-                                        <br />
+                                            - To see codebase sample, send me a message request
+                                        </p>
                                         <Button basic onClick={() => this.toggleGalleryModal('oosa')}>
                                             Project gallery
                                         </Button>
@@ -90,14 +90,17 @@ class Projects extends Component {
                                     <div>
                                         <h3>SofaStack</h3>
                                         <h5>Software Developer Tool</h5>
-                                        Full Stack Software Engineer, UI Design
-                                        <div>
-                                            <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em><br />
+                                        <p>Full Stack Software Engineer, UI Design</p>
+                                        <p>
+                                            <a href='https://sofastack.herokuapp.com/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/sofastack' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                                        </p>
+                                        <p>
+                                            <em>Dev tool that generates a CRUD Node.js / Express application w/ routes / DB integration. Github integration to automatically deploy repository on completed API / DB schema definitions</em>
+                                        </p>
+                                        <p>
                                             - React, Redux, Bluebird, Passport, Webpack, PostgreSQL, Sequelize, OAuth, Mocha / Chai, SuperTest<br />
                                             - Project was built using agile development with a team of three engineers
-                                        </div>
-                                        <br />
+                                        </p>
                                         <Button basic onClick={() => this.toggleVideoModal('sofastack')}>
                                             Demo Video
                                         </Button>
@@ -109,15 +112,18 @@ class Projects extends Component {
                                     <div>
                                         <h3>Made By Don</h3>
                                         <h5>E-commerce</h5>
-                                        Full Stack Software Engineer, UI Design
-                                        <div>
-                                            <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>E-commerce site for NYC-based leather shop</em><br />
+                                        <p>Full Stack Software Engineer, UI Design</p>
+                                        <p>
+                                            <a href='http://www.madebydon.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/madebydon' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                                        </p>
+                                        <p>
+                                            <em>E-commerce site for NYC-based leather shop</em>
+                                        </p>
+                                        <p>
                                             - React, Redux, Node.js/Express, Sequelize, PostgreSQL, technical and design consulting <br />
                                             - Integrated Stripe-based payment system / shopping cart, SSL integration<br />
                                             - Project was built using agile development
-                                        </div>
-                                        <br />
+                                        </p>
                                         <Button basic onClick={() => this.toggleGalleryModal('madebydon')}>
                                             Project gallery
                                         </Button>
@@ -127,24 +133,30 @@ class Projects extends Component {
                                     <div>
                                         <h3>Readable</h3>
                                         <h5>Reddit clone</h5>
-                                        Full Stack Software Engineer
-                                        <div>
-                                            <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>Reddit clone application for user posting</em><br />
+                                        <p>Full Stack Software Engineer</p>
+                                        <p>
+                                            <a href='https://morning-sands-83943.herokuapp.com/#/' target='_blank' rel='noopener noreferrer'>App</a> | <a href='https://github.com/kjalnes/reddit_proj' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                                        </p>
+                                        <p>
+                                            <em>Reddit clone application for user posting</em>
+                                        </p>
+                                        <p>
                                             - React, React Router, Redux, Node.js/Express
-                                        </div>
+                                        </p>
                                     </div>
                                 </Grid.Column>
                                 <Grid.Column>
                                     <div>
                                         <h3>Mobile Flashcards</h3>
                                         <h5>Study App</h5>
-                                        Full Stack Software Engineer
-                                        <div>
+                                        <p>Full Stack Software Engineer</p>
+                                        <p>
                                             <a href='https://github.com/kjalnes/mobile-flashcards' target='_blank' rel='noopener noreferrer'>GitHub</a><br />
-                                            <em>iOS Flashcard study app</em><br />
+                                            <em>iOS Flashcard study app</em>
+                                        </p>
+                                        <p>
                                             - React, React Native, Redux
-                                        </div>
+                                        </p>
                                     </div>
                                 </Grid.Column>
                             </Grid.Row>
