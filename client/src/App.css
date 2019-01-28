@@ -267,7 +267,8 @@ img.ui.circular.image.portrait {
     }
 
     .main-container {
-        padding: 70px 0 0 0;
+        /*padding: 70px 0 0 0;*/
+        padding: 86px 0 0;
         width: inherit !important;
     }
 
