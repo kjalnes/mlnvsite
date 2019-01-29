@@ -56,6 +56,9 @@ class Projects extends Component {
                                             <em>CMS site with custom JS templating and fullstack app that automates letter exchange program control flow by connecting teachers peer to peer algorithmically using geolocation to match classes via student age, class size, and location.
                                             </em>
                                         </p>
+                                        <p>
+                                            Read about the program <a href='https://wemakepeace.org/peace-letter-program/' target='_blank'>here</a>.
+                                        </p>
                                         <p>- App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RD
                                         </p>
                                         <p>
