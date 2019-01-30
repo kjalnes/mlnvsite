@@ -79,6 +79,15 @@ a:hover {
     text-decoration: underline;
 }
 
+a.item:hover {
+    text-decoration: underline !important;
+}
+
+a.item.active-menu-item:hover {
+    text-decoration: none !important;
+}
+
+
 .fifteen.wide.computer.thirteen.wide.mobile.thirteen.wide.tablet.column {
     margin: 0 auto;
 }

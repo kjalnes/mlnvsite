@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, Container, Divider } from 'semantic-ui-react'
-import '../App.css';
 import Header from './Header';
 import Menu from './Menu';
 import About from './About';

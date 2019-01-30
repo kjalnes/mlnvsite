@@ -57,7 +57,7 @@ class Projects extends Component {
                                             </em>
                                         </p>
                                         <p>
-                                            Read about the program <a href='https://wemakepeace.org/peace-letter-program/' target='_blank'>here</a>.
+                                            Read about the program <a href='https://wemakepeace.org/peace-letter-program/' target='_blank' rel='noopener noreferrer'>here</a>.
                                         </p>
                                         <p>- App: Built using React, Redux, Node.js/Express, Sequelize, PostgreSQL(RDS), secure session management using JWT, OAuth, password admin via Nodemailer, AWS EC2, AWS S3, AWS RD
                                         </p>
@@ -200,7 +200,7 @@ class Projects extends Component {
                                     <h4>A study in Layout and Positioning</h4><br />
                                     Illustrated study in CSS layout and positioning
                                     <br />
-                                    <a href='https://kjalnes.github.io/css-layout/'>Website</a> | <a href='https://github.com/kjalnes/css-layout'>Github</a><br />
+                                    <a href='https://kjalnes.github.io/css-layout/' target='_blank' rel='noopener noreferrer'>Website</a> | <a href='https://github.com/kjalnes/css-layout' target='_blank' rel='noopener noreferrer'>Github</a><br />
                                 </div>
                             </Grid.Row>
                         </Grid>
