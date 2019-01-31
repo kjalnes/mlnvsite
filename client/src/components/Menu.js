@@ -15,6 +15,7 @@ export default function MainMenu() {
                     className='nav'
                     items={ ['about', 'projects', 'contact'] }
                     style={{margin: '0'}}
+                    offset={-100}
                     currentClassName='active-menu-item'>
                     <Menu.Item href='#about' name='【ツ】'/>
                     <Menu.Item href='#projects' name='projects' />

@@ -23,9 +23,6 @@ class Projects extends Component {
 
         return (
             <div className='page-segment'>
-                <div className='spacer two' id='projects'>
-                    &nbsp;
-                </div>
                 <GalleryModal
                     toggleGalleryModal={this.toggleGalleryModal.bind(this)}
                     open={openGalleryModal}
@@ -34,11 +31,13 @@ class Projects extends Component {
                     toggleVideoModal={this.toggleVideoModal.bind(this)}
                     open={openVideoModal}
                     project={project} />
-                <Grid id='projects-1' className='XXXXXXXX'>
+                <Grid id='projects'>
                     <Grid.Column width={1}>
+                        <div className='spacer two'>&nbsp;</div>
                         <div className='custom-title'>Projects</div>
                     </Grid.Column>
                     <Grid.Column computer={15} tablet={13} mobile={13} >
+                        <div className='spacer two'>&nbsp;</div>
                         <Divider horizontal section style={{marginTop: '0rem'}}>
                             Full stack
                         </Divider>

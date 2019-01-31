@@ -4,17 +4,16 @@ import { Divider, Grid, Image } from 'semantic-ui-react'
 const About = () => {
    return (
         <div className='page-segment'>
-            <div className='spacer one' id='about'>
-                &nbsp;
-            </div>
-            <Grid>
+            <Grid id='about'>
                 <Grid.Column width={1}  >
+                    <div className='spacer two'>&nbsp;</div>
                     <div className='custom-title'>Hello</div>
                 </Grid.Column>
                 <Grid.Column computer={15} tablet={13} mobile={13} >
+                    <div className='spacer two'>&nbsp;</div>
                     <div>
                         <div className='bio'>
-                            <div className='bio-text'>Hello! I am a JavaScript developer. I began learning code 5+ years ago and since then I have expanded my frontend and backend skills through onsite and online communities including Fullstack Academy, Udacity and General Assembly. Still learning and loving it. I have a background in design and I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
+                            <div className='bio-text'>Hello! I am a JavaScript developer and problem solver. I began learning to code 6+ years ago and since then I have expanded my frontend and backend skills through onsite and online communities including Fullstack Academy, Udacity and General Assembly. Still learning and loving it. I have a background in design and spend a lot of time in the DOM. I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
                                 <br />
                                 <a
                                     href='https://github.com/kjalnes'

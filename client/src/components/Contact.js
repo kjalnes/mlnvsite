@@ -33,18 +33,17 @@ class Contact extends Component  {
         const { response } = this.state;
         return (
             <div className='page-segment'>
-
-                <div className='spacer' id='contact'>
-                    &nbsp;
-                </div>
-                <Grid id='contact-1' className='XXXXXXXX'>
+                <Grid id='contact'>
                     <Grid.Column width={1}>
+                        <div className='spacer two'>&nbsp;</div>
                         <div className='custom-title'>Contact</div>
                     </Grid.Column>
                     <Grid.Column computer={15} tablet={13} mobile={13} >
-                        Feel free to reach out via <a href="mailto:kris.alnes@gmail.com?Subject=Hello%20" target="_top">email</a> or send message through <a href='https://www.linkedin.com/in/kristine-alnes-a1702071/' >LinkedIn</a>.<br />
-                        Or send me a message right here
-
+                        <div className='spacer'>&nbsp;</div>
+                        <div>
+                            Feel free to reach out via <a href="mailto:kris.alnes@gmail.com?Subject=Hello%20" target="_top">email</a> or send message through <a href='https://www.linkedin.com/in/kristine-alnes-a1702071/' >LinkedIn</a>.<br />
+                            Or send me a message right here
+                        </div>
                         <Divider hidden />
                         <Form>
                             <Form.Field>
