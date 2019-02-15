@@ -13,7 +13,7 @@ const About = () => {
                     <div className='spacer two'>&nbsp;</div>
                     <div>
                         <div className='bio'>
-                            <div className='bio-text'>Hello! I am a JavaScript developer and problem solver. I began learning to code 6+ years ago and since then I have expanded my frontend and backend skills through onsite and online communities including Fullstack Academy, Udacity and General Assembly. Still learning and loving it. I have a background in design and spend a lot of time in the DOM. I'm all about semantic code, solid UX and fully functional and data-driven user interfaces.
+                            <div className='bio-text'>Hello! I am a JavaScript developer and problem solver. I have been programming for 6+ years working on full stack applications and websites. Still learning and loving it. I have a background in design and spend a lot of time in the DOM. I'm all about semantic code, solid UX, and fully functional and data-driven user interfaces.
                                 <br />
                                 <a
                                     href='https://github.com/kjalnes'
